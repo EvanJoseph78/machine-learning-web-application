@@ -1,0 +1,6 @@
+.menu-bar-container {
+  display: flex;
+  border: 1px solid red;
+  height: 80px;
+  padding: 0 45px;
+}

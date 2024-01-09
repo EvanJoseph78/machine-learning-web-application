@@ -1,1 +1,99 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Reset CSS básico */
+
+/* Seletores globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elementos de bloco comuns */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+fieldset,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+/* Formatação de texto padrão */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: Arial, sans-serif;
+}
+
+/* Elementos de formulário */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+/* Estilos específicos para navegadores */
+body {
+  line-height: 1.6;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* Elementos incorporados */
+img,
+iframe {
+  border: 0;
+}
+
+/* Correção para o elemento 'a' em alguns navegadores */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Limpeza de espaços em branco em elementos em linha */
+abbr[title]::after,
+dfn::after,
+mark::after,
+blockquote::after,
+q::after {
+  content: "";
+}
+
+/* Limpeza de quebras de linha em elementos em bloco */
+blockquote,
+q {
+  quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}

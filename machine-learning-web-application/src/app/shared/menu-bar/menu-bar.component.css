@@ -1,6 +1,52 @@
 .menu-bar-container {
   display: flex;
-  border: 1px solid red;
+  background: rgba(40, 51, 83, 255);
+  justify-content: space-around;
+  /* border: 1px solid red; */
   height: 80px;
   padding: 0 45px;
+}
+
+.imagem-logo-container {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  gap: 5px;
+}
+
+.imagem-logo-container > img {
+  width: auto;
+  height: auto;
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-title > h1,
+h3 {
+  color: white;
+  font-family: Merriweather, serif;
+}
+
+.logo-name {
+  color: white;
+  font-family: Merriweather, serif;
+}
+
+.logo-title > h1 {
+  border: 1px solid grey;
+}
+
+.search-box-container {
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-pesquisa {
+  border: 1px solid red;
 }

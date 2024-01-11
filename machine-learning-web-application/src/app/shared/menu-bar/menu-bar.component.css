@@ -7,6 +7,24 @@
   padding: 0 45px;
 }
 
+.btn-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cursos {
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+}
+
+.menu {
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+}
+
 .imagem-logo-container {
   display: flex;
   flex-direction: row;
@@ -42,11 +60,21 @@ h3 {
 }
 
 .search-box-container {
-  height: 25px;
   display: flex;
   flex-direction: row;
+  /* background: red; */
+  align-items: center;
 }
 
 .btn-pesquisa {
   border: 1px solid red;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.barra-pesquisa {
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
 }

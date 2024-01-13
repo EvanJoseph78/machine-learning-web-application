@@ -62,13 +62,12 @@ h3 {
 .search-box-container {
   display: flex;
   flex-direction: row;
-  /* background: red; */
   align-items: center;
 }
 
 .btn-pesquisa {
-  border: 1px solid red;
   border-radius: 5px;
+  background: white;
   height: 30px;
   width: 30px;
 }

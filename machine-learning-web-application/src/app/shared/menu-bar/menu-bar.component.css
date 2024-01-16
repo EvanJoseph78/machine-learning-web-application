@@ -26,6 +26,13 @@
   font-weight: 400;
   line-height: normal;
   background: #fff;
+  transition: background 0.3s ease;
+  border: none;
+}
+
+.btn-container > .cursos:hover {
+  color: white;
+  background: var(--vermelho-vinho);
 }
 
 .imagem-logo-container {
@@ -94,12 +101,14 @@
   height: 60px;
 }
 
-.search-box-container > button > img,
-.search-box-container > .btn-login > img,
-.search-box-container > .btn-pesquisa > img {
+.search-box-container > button > img {
   width: 60px;
   height: 60px;
   flex-shrink: 0;
+}
+
+.search-box-container > button:hover > img {
+  cursor: pointer;
 }
 
 .menu {

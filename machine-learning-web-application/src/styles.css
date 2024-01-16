@@ -98,7 +98,9 @@ q::after {
   content: none;
 }
 
+/* global styles */
 :root {
   --azul-cobalto: #08072e; /* Defina sua variável global aqui */
+  --vermelho-vinho: #a51c30;
   --tamanho-fonte: 16px;
 }

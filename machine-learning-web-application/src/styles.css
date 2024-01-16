@@ -97,3 +97,8 @@ q::after {
   content: "";
   content: none;
 }
+
+:root {
+  --azul-cobalto: #08072e; /* Defina sua variável global aqui */
+  --tamanho-fonte: 16px;
+}

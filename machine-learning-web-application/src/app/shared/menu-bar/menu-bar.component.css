@@ -1,75 +1,105 @@
 .menu-bar-container {
   display: flex;
   background: rgba(40, 51, 83, 255);
+  background: var(--azul-cobalto);
   justify-content: space-around;
+  align-items: center;
   /* border: 1px solid red; */
-  height: 80px;
-  padding: 0 80px;
+  height: 100px;
 }
 
 .btn-container {
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
-.cursos {
-  border-radius: 5px;
-  height: 50px;
-  width: 150px;
+.btn-container > .cursos {
+  width: 174px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  color: #283353;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #fff;
 }
 
 .imagem-logo-container {
   display: flex;
   flex-direction: row;
-  height: 70px;
-  gap: 5px;
+  gap: 10px;
 }
 
 .imagem-logo-container > img {
-  width: auto;
-  height: auto;
+  width: 56px;
+  height: 70px;
+  flex-shrink: 0;
 }
 
-.logo-title {
+.imagem-logo-container > .logo-title {
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.logo-title > h1,
-h3 {
-  color: white;
-  font-family: Merriweather, serif;
+.imagem-logo-container > .logo-title > .logo-name1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.logo-name {
-  color: white;
-  font-family: Merriweather, serif;
-}
-
-.logo-title > h1 {
-  border: 1px solid grey;
+.imagem-logo-container > .logo-title > .logo-name2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .search-box-container {
+  /* border: 1px solid red; */
   display: flex;
+  gap: 10px;
   flex-direction: row;
-  align-items: center;
 }
 
-.btn-pesquisa {
-  border-radius: 5px;
-  background: white;
-  height: 30px;
-  width: 30px;
+.search-box-container > .barra-pesquisa {
+  width: 265px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  color: #283353;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.barra-pesquisa {
-  border-radius: 5px;
-  height: 30px;
-  width: 200px;
+.search-box-container > button {
+  background: none;
+  border: none;
+  width: 60px;
+  height: 60px;
+}
+
+.search-box-container > button > img,
+.search-box-container > .btn-login > img,
+.search-box-container > .btn-pesquisa > img {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
 }
 
 .menu {

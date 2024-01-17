@@ -1,0 +1,14 @@
+.main-page-container > .top-box {
+  background: #08072e;
+  width: 100%;
+  height: 639px;
+  height: 50vh;
+  flex-shrink: 0;
+}
+
+.main-page-container > .bottom-box {
+  background: #d9d9d9;
+  width: 100%;
+  height: 1200px;
+  flex-shrink: 0;
+}

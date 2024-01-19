@@ -2,10 +2,11 @@
   display: flex;
   background: rgba(40, 51, 83, 255);
   background: var(--azul-cobalto);
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   /* border: 1px solid red; */
   height: 100px;
+  padding: 0 200px;
 }
 
 .btn-container {

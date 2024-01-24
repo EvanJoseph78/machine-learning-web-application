@@ -37,6 +37,26 @@ export class MainPageComponent {
         formacao1: 'Graduado em Matemática',
         formacao2: 'Basharelando em Sistemas de Informação',
       },
+      {
+        imgperfil: '',
+        nome: 'Joseph Evans',
+        formacao1: 'Graduado em Matemática',
+        formacao2: 'Basharelando em Sistemas de Informação',
+      },
+      {
+        imgperfil: '',
+        nome: 'Joseph Evans',
+        formacao1: 'Graduado em Matemática',
+        formacao2: 'Basharelando em Sistemas de Informação',
+      },
+      {
+        imgperfil: '',
+        nome: 'Joseph Evans',
+        formacao1: 'Graduado em Matemática',
+        formacao2: 'Basharelando em Sistemas de Informação',
+      },
     ],
   };
+
+  constructor() { }
 }

@@ -41,17 +41,15 @@
   </div>
   <div class="about-instructors">
     <h1>Professores</h1>
-
-    <div
-      class="cards-container grid1"
-      *ngFor="let professor of curso.professores"
-    >
-      <app-instructor-info-card
-        imgperfil="{{ professor.imgperfil }}"
-        nome="{{ professor.nome }}"
-        formacao1="{{ professor.formacao1 }}"
-        formacao2="{{ professor.formacao2 }}"
-      ></app-instructor-info-card>
+    <div class="cards-container">
+      <div class="" *ngFor="let professor of curso.professores">
+        <app-instructor-info-card
+          imgperfil="{{ professor.imgperfil }}"
+          nome="{{ professor.nome }}"
+          formacao1="{{ professor.formacao1 }}"
+          formacao2="{{ professor.formacao2 }}"
+        ></app-instructor-info-card>
+      </div>
     </div>
   </div>
 </div>

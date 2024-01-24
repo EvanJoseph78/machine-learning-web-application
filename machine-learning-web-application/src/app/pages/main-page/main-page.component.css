@@ -153,5 +153,9 @@ body {
 }
 
 .main-page-container > .about-instructors > .cards-container {
-  border: 1px solid #db00ff;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 200px;
 }

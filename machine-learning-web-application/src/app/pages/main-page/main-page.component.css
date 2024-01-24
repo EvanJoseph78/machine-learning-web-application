@@ -111,7 +111,7 @@ body {
 }
 
 .main-page-container > .container > .box-right > .bottom-box button {
-  margin-top: 102px;
+  margin-top: 61px;
   border-radius: 15px;
   background: #a51c30;
   width: 170px;
@@ -135,15 +135,16 @@ body {
   flex-shrink: 0;
 }
 
-.main-page-container > .about-instructors {
-  margin-top: 37px;
+.about-instructors {
+  margin-top: 40px;
   min-height: 466px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 
-.main-page-container > .about-instructors > h1 {
+.about-instructors > h1 {
   color: #000;
   font-family: Inter;
   font-size: 64px;
@@ -152,10 +153,24 @@ body {
   line-height: normal;
 }
 
-.main-page-container > .about-instructors > .cards-container {
+.about-instructors > .cards-container {
   margin-top: 40px;
+  justify-content: center;
+  justify-items: center;
+  gap: 200px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  gap: 200px;
 }

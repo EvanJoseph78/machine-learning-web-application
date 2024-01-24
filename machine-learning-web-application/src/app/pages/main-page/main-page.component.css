@@ -20,12 +20,12 @@ body {
 
 .main-page-container > .container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main-page-container > .container > .box-right {
-  /* border: 1px solid red; */
   width: 945px;
-  width: 65%;
   height: 972px;
   flex-shrink: 0;
 }

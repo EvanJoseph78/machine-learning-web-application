@@ -7,3 +7,7 @@
   color: #fff; /* Estilize as cores de texto conforme necessário. */
   z-index: 100; /* Garanta que o menu esteja acima de outros elementos na página. */
 }
+
+.footer {
+  bottom: 0;
+}

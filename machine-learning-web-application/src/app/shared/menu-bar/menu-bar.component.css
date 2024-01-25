@@ -2,11 +2,18 @@
   display: flex;
   background: rgba(40, 51, 83, 255);
   background: var(--azul-cobalto);
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   /* border: 1px solid red; */
   height: 100px;
-  padding: 0 200px;
+  padding: 0 15px;
+}
+
+.bar {
+  display: flex;
+  width: 1475px;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid blueviolet; */
 }
 
 .btn-container {
@@ -15,7 +22,7 @@
   align-items: center;
 }
 
-.btn-container > .cursos {
+.cursos {
   width: 174px;
   height: 60px;
   flex-shrink: 0;
@@ -31,7 +38,7 @@
   border: none;
 }
 
-.btn-container > .cursos:hover {
+.cursos:hover {
   color: white;
   background: var(--vermelho-vinho);
 }
@@ -48,7 +55,7 @@
   flex-shrink: 0;
 }
 
-.imagem-logo-container > .logo-title {
+.logo-title {
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
@@ -56,7 +63,7 @@
   align-items: center;
 }
 
-.imagem-logo-container > .logo-title > .logo-name1 {
+.logo-name1 {
   color: #fff;
   text-align: center;
   font-family: Inter;
@@ -66,7 +73,7 @@
   line-height: normal;
 }
 
-.imagem-logo-container > .logo-title > .logo-name2 {
+.logo-name2 {
   color: #fff;
   font-family: Inter;
   font-size: 12px;
@@ -82,7 +89,7 @@
   flex-direction: row;
 }
 
-.search-box-container > .barra-pesquisa {
+.barra-pesquisa {
   width: 265px;
   height: 60px;
   flex-shrink: 0;

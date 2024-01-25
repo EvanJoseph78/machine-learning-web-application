@@ -141,6 +141,90 @@ body {
   margin-top: 100px;
 }
 
+.box-left > .img-container > img {
+  border-radius: 15px 15px 0px 0px;
+  width: 530px;
+  height: 298px;
+  flex-shrink: 0;
+}
+
+.box-left > .item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #b7b7b7;
+  padding: 0 0 17px 0;
+  margin: 23px;
+}
+
+.box-left > .item-container > .right-itens > img {
+  width: 28px;
+  height: 27px;
+  flex-shrink: 0;
+}
+
+.box-left > .item-container > p {
+  color: #434343;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box-left > .item-container > .right-itens {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.box-left > .item-container > .right-itens > p {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tag-container {
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+  max-width: 250px;
+}
+
+.tag {
+  border-radius: 15px;
+  background: #a51c30;
+  height: 19px;
+  min-width: 50px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 11px;
+  flex-shrink: 0;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag-topico {
+  color: #fff;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 11px;
+  flex-shrink: 0;
+}
+
 .about-instructors {
   margin-top: 40px;
   min-height: 466px;

@@ -22,7 +22,14 @@ export class MainPageComponent {
     disciplina: 'Machine Learning',
     nivel: 'Básico',
     certificado: true,
-    topicos: ['Python', 'Machine Learning', 'Colab'],
+    topicos: [
+      'Python',
+      'Machine Learning',
+      'Colab',
+      'Pandas',
+      'Evandro José da Silva Mariano',
+      'Alpha Zero',
+    ],
     professores: [
       {
         imgperfil:
